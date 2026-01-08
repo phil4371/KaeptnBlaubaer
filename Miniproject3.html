@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Miniproject 3 </title>
+
+</head>
+<body>
+    <h1> Miniproject 3:</h1>
+    <ol>
+        <li> Ask the User for a Number</li>
+        <li> Cast the input to a Number</li>
+        <li> Make sure the number is valid</li>
+        <li> If the number is over 18, change some text on the page</li>
+        
+    </ol>
+
+    <h3 id="output"></h3>
+
+    <script>
+
+        let input = prompt("Please enter a number:"); // Step 1: Ask the User for a Number
+        let number = Number(input); // Step 2: Cast the input to a Number
+        if (number && number > 18){
+                document.getElementById("output").innerText = "You are over 18!";            
+        }
+        else if (number <= 18){
+            document.getElementById("output").innerText = "You are 18 or younger!";
+        }
+        else {
+            document.getElementById("output").innerText = "Invalid number entered.";
+        }
+    </script>
+</html>
