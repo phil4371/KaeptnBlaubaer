@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Miniproject 4 </title>  
+</head>
+<body>
+   <h1> Miniproject 4: </h1>
+   <ol>
+        <li> Create a simple Tip calculator </li>
+        <li> It needs to accept 2 parameters </li>
+        <li> Make the tip parameter optional</li>
+        <li> Retunr the total amount and save it to a var</li>
+   </ol> 
+
+   <h3 id = ToPay> </h3>
+
+
+   <script>
+
+    function tipCalculator(bill, tip = 10){
+        return bill + bill*(0.01*tip);
+    }
+
+    let bill = Number(prompt("Bitte gib deine Kosten ein"));
+
+    let fullAmount = tipCalculator(bill);
+
+    document.getElementById("ToPay").innerHTML = `Der Gesamtbetrag ist: ${fullAmount} €`;
+
+
+   </script>
+</body>
+</html>

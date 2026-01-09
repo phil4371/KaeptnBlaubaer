@@ -1,0 +1,2 @@
+- queryselector -> zum aufrufen und ändern eines Elements von HTML -> nur eins wird geändert
+    - queryselectorAll -> um alle des Elements aufzurufen 
