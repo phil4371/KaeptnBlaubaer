@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family:"Baloo 2";
 }
 
@@ -20,11 +19,16 @@ header{
     
     
 }
-
-header img {
+header .pfp{
     width: 300px;
+    height: 300px;
     border-radius: 50%;
     border: 10px solid #022719; 
+    background-image: url(./../img/Blaubaer_und_die_Zwergpiraten.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 body {
