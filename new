@@ -1,2 +1,21 @@
 - queryselector -> zum aufrufen und ändern eines Elements von HTML -> nur eins wird geändert
     - queryselectorAll -> um alle des Elements aufzurufen 
+
+
+generell alle selectoren notieren, damit ich das nicht vergesse
+
+- anonyme funktionen
+-IIFE Immediatelxy Invoked Function Expression
+-Hoisting - var/let etc deklarationen werden nach oben gesetzt in runntime, egal ob sie mitten im code deklariert wernde oder ganz unten.
+    Dadurch kann man die deklaration theoretisch später machen und vorher schon benutzen
+- Event Listeners - click/keypress/blur
+    callback funktion
+
+    changing css with event listeners
+
+
+
+
+
+HTML/CSS
+-favicons

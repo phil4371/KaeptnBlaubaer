@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Tip Calculator </title>
+
+</head>
+<body>
+    <h1> Tip Calculator </h1>
+
+
+    <label for="bill"> Rechnung </label>
+    <input type="number" id="bill"> 
+    <br>
+    <br>
+
+    <label for="tip"> Trinkgeld in % </label>
+    <input type="number" id = "tip">
+    <br>
+    <br>
+    <button onclick="myclick()">Betrag errechnen</button>
+
+    <h3 id = "Gesamtbetrag">  </h3>
+
+    <script>
+    
+        function myclick(){  
+            //console.log("Test")   
+            let tip = Number(document.getElementById("tip").value);
+            let bill = Number(document.getElementById("bill").value);
+
+            let costs = bill + bill*(tip/100);
+
+            let change = document.getElementById("Gesamtbetrag");
+            change.textContent = costs.toFixed(2);
+        }
+
+        //console.log("Tests")
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,40 @@
+/* muss mit link verlinkt werden im header */
+
+/* Schrift ändern geht über import von google fonts, da kann man sich dann was aussuchen*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family:"Baloo 2";
+}
+
+header{
+    text-align: center;
+    color: #ffffff;
+    background-color: #0a4263;
+
+    padding: 20px;
+    
+    
+}
+
+header img {
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #022719; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0a6341;
+}
+
+header h1{
+    font-size: 70px;
+    margin: 10px, 0, 20px, 0;
+}
+
